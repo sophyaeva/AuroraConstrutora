@@ -1,125 +1,137 @@
 :root {
-    --green: #BD9464;
-    --slate-900: #0f172a;
-    --slate-200: #e2e8f0;
-    --slate-100: #f1f5f9;
-    --white: #ffffff;
-    --bg: #0f172a;
-    --font-display: 'Outfit', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --escuro: #111c35;
+    --claro: #f5f5f5;
+    --dourado: #bd9464;
+    --texto: #d8d8d8;
+    --fonte-principal: Arial, sans-serif;
 }
 
-*{
-    margin: 0%;
-    padding: 0%;
-}
+* {
 
-html{
-    scroll-behavior: smooth;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(img/hero-basquete-feminino.png) no-repeat center/cover;
-    height: 100vh;
+
 }
 
-.cabecalho{
+body {
+
+    background-color: var(--escuro);
+    color: var(--claro);
+    font-family: var(--fonte-principal);
+
+}
+
+header {
+    width: 100%;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 0.2px solid #858585;
-    margin: 2rem;
-    padding-bottom: 2rem;
-    margin-top: 3rem;
-    gap: 10rem;
+    padding: 0 8%;
+
 }
 
-.logo{
-    color: var(--claro);
+/* LOGO */
+
+.logo h2 {
+    font-size: 30px;
     font-weight: 700;
-    font-size: 24px;
+    color: var(--claro);
+
 }
 
-.menu ul{
+.logo span {
+    color: var(--dourado);
+    font-weight: 400;
+
+}
+
+/* MENU */
+
+.menu ul {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 30px;
     list-style: none;
+
 }
 
-.menu a{
+.menu a {
+    color: var(--claro);
     font-family: var(--fonte-principal);
-    color: var(--claro);
-    font-weight: 700;
-    outline: none;
+    font-size: 19px;
+    font-weight: 600;
     text-decoration: none;
+    transition: 0.3s;
+
 }
 
-.menu a:hover{
-    color: #ff5a1f;
+.menu a:hover {
+    color: var(--dourado);
+
 }
 
-.hero{
-    max-width: 100vh;
-    max-height: 100%;
-}
+/* HERO */
 
-.home-conteudo{
-    margin: 10rem;
-    max-width: 30rem;
-    min-height: 500px;
-    margin-top: 10rem;
-}
-
-.sub-titulo{
-    font-size: 13px;
-    color: #ff5a1f;
-    font-weight: 700;
-}
-
-.titulo-principal{
-    color: var(--claro);
-    font-size: 77.3px;
-    font-weight: 800;
-    line-height: 1.0;
-}
-
-.descricao{
-    color: #c9c9c9;
-    border-left: 4px solid #ff5a1f;
-    padding-left: 1rem;
-    max-width: 25rem;
-    font-size: 18px;
-    font-weight: 300;
-}
-
-strong{
-    color: var(--preto);
-    font-size: 50px;
-    position: relative;
-    bottom: 30px;
-    margin-left: -70px;
-}
-
-span{
-    color: #ff5a1f;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.container-dados h3{
-    color: #ff5a1f;
-    font-size: 30px;
-}
-
-.container-dados{
-    margin: 7rem;
-    margin-top: -7rem;
+.hero {
+    min-height: 650px;
+    width: 100%;
     display: flex;
-    gap: 40px;
-    background-color: #111111;
-    border: 1px solid #414141;
-    padding: 2rem;
+    align-items: flex-start;
+    padding-left: 9%;
+    padding-top: 130px;
+
+}
+
+
+.home-conteudo {
+    max-width: 480px;
+
+}
+
+/* TÍTULO */
+
+.home-conteudo h1 {
+    font-size: 60px;
+    line-height: 1.05;
+    font-weight: 750;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+
+}
+
+.home-conteudo h1 span {
+    color: var(--dourado);
+
+}
+
+/* TEXTO */
+
+.home-conteudo p {
+    max-width: 410px;
+    color: var(--texto);
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+/* BOTÃO */
+
+.botão {
+    display: inline-block;
+    padding: 13px 25px;
+    border: 1px solid var(--dourado);
+    color: var(--claro);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+
+}
+
+.botão:hover {
+    background-color: var(--dourado);
+    color: var(--escuro);
+
 }
