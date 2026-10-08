@@ -135,3 +135,12 @@ header {
     color: var(--escuro);
 
 }
+
+.img{
+    width: 150px !important;
+    height: auto;
+    margin-left: -80px;
+    position:relative;
+    top: -30px;
+
+}
