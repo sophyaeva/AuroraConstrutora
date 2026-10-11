@@ -87,7 +87,7 @@ header {
 
 .home-conteudo {
     display: flex;
-    gap: 25rem;
+    gap: 15rem;
     justify-content: space-between;
 
 }
@@ -122,11 +122,11 @@ header {
 
 .botão {
     display: inline-block;
-    padding: 13px 25px;
+    padding: 15px 25px;
     border: 1px solid var(--dourado);
     color: var(--claro);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 600;
     transition: 0.3s;
 
@@ -141,7 +141,7 @@ header {
 img{
     width: 50rem;
     height: 65rem;
-    transform: translateY(-25%);
+    transform: translateY(-28%);
 
 }
 
@@ -149,3 +149,43 @@ img{
     display: flex;
     flex-direction: column;
 }
+
+.texto-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-2 h1{
+    font-size: 60px;
+    line-height: 1.05;
+    font-weight: 750;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+
+}
+
+.texto-2 h1 span{
+    color: var(--dourado);
+
+}
+
+.texto-2 p{
+    max-width: 410px;
+    color: var(--texto);
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+
+}
+
+.
+
+.texto-2 img{
+    width: 50rem;
+    height: 65rem;
+    transform: translateY(-28%);
+
+}
+
