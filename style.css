@@ -167,17 +167,24 @@ img{
 .texto-2 h2{
     font-size: 45px;
     position: relative;
-    top: -280px;
+    top: -220px;
     font-family: Inria Serif;
     margin-bottom: 20px;
    
 }
 
 .texto-2 p{
-    font-size: 20px;
-    line-height: 2.1;
+    font-size: 29px;
+    line-height: 1.7;
     position: relative;
-    top: -250px;
+    top: -195px;
+}
+
+.texto-2 .texto p{
+    font-size: 29px;
+    line-height: 1.7;
+    position: relative;
+    top: -150px;
 }
 
 .sobre-conteudo img{
@@ -188,3 +195,75 @@ img{
     top: -280px;
     left: 0;
 }
+
+.numeros{
+    background-color: #1a2536;
+    color: white;
+    padding: 80px 8%;
+    transform: translateY(-550px);
+}
+
+.numeros{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.numeros h3{
+    font-size: 50px;
+    text-align: center;
+    font-family: Inria Serif;
+    color: var(--dourado);
+    margin-bottom: 7px;
+}
+
+.numeros p{
+    font-size: 25px;
+    color: var(--texto);
+}
+
+.servicos{
+    width: 100%;
+    padding: 80px 8%;
+    transform: translateY(-550px);
+}
+
+.texto-3 h2{
+    font-size: 55px;
+    position: relative;
+    font-family: Inria Serif;
+    margin-bottom: 20px;
+    color: #bd9464;;
+    text-align: center;
+    top: -450px; 
+}
+
+.texto-3 p{
+    font-size: 15px;
+    line-height: 1.4;
+    position: relative;
+    top: -450px;
+    text-align: center;
+}
+
+.lista-serviços{
+    display: flex;
+    gap: 15px;
+    letter-spacing: 3px;
+    transform: translateY(-450px);
+}
+
+.cartao{
+    flex: 1;
+    border: 1px solid var(--dourado);
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.cartao:hover{
+   
+}
+
