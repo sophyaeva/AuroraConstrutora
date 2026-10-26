@@ -258,12 +258,187 @@ img{
 .cartao{
     flex: 1;
     border: 1px solid var(--dourado);
-    letter-spacing: 3px;
     text-align: center;
     padding: 30px 15px;
+    transform: translateY(25px);
 }
 
-.cartao:hover{
-   
+h3{
+    font-size: 30px;
+    color: var(--dourado);
+    margin-bottom: 15px;
 }
 
+p{
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--texto);
+    top: 15px;
+}
+
+.texto-4 h1{
+    font-size: 60px;
+    position: relative;
+    font-family: Inria Serif;
+    margin-bottom: 20px;
+    color: #bd9464;;
+    text-align: center;
+    top: -300px; 
+}
+
+.texto-4 h2{
+    font-size: 30px;
+    position: relative;
+    font-family: Inria Serif;
+    margin-bottom: 20px;
+    text-align: center;
+    top: -300px; 
+    margin-right: 999px;
+}
+
+
+.disponiveis {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.modelo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.modelo h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.modelo p {
+    margin-left: auto;
+    color: rgba(0, 0, 0, 0.788);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bikes {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.bike-1 {
+    width: 300px;
+    min-height: 550px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.bike-1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.conteudo-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.mod-bike {
+    color: #16a34a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+}
+
+.conteudo-card h2 {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+
+.descricao-bike {
+    color: #000000a9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 5px 0 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+    line-height: 1.5;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.preco .preco-01 {
+    color: #000000a9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.span-2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.span-2-1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.disponivel {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #28b65c;
+    white-space: nowrap;
+}
+
+.bike-1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 40px);
+    min-height: 45px;
+    margin: 0 20px 20px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #16a34a;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 14px;
+    transition: 200ms;
+}
+
+.bike-1 a:hover {
+    background-color: #166733;
+    transform: translateY(-2px);
+}
