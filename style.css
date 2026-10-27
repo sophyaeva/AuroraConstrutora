@@ -322,13 +322,11 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.bikes {
-    display: flex;
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    gap: 30px;
 }
 
 .bike-1 {
